@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#07090a">
+<meta name="description" content="Prime Visuals automotive photography portfolio. Explore car photography and cinematic imagery from Christchurch, New Zealand.">
+<title>Portfolio | Prime Visuals</title>
+<style>
+:root{--bg:#07090a;--panel:#111518;--line:#292f33;--text:#f5f4f1;--muted:#a8b0b4;--gold:#C9A66B}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial,Helvetica,sans-serif}
+a{color:inherit;text-decoration:none}
+header{position:sticky;top:0;z-index:20;background:#080a0bf0;backdrop-filter:blur(16px);padding:20px max(5vw,20px);display:flex;justify-content:space-between;align-items:center;gap:20px;border-bottom:1px solid #ffffff26}
+.logo{font-size:18px;font-weight:800;letter-spacing:.15em;white-space:nowrap}
+.accent,.eyebrow{color:var(--gold)}
+nav{display:flex;gap:27px;align-items:center;flex-wrap:wrap}
+nav a{font-size:12px;letter-spacing:.15em;text-transform:uppercase}
+nav a:hover,nav a[aria-current="page"]{color:var(--gold)}
+.container{max-width:1220px;margin:auto;padding:0 25px}
+.intro{padding:95px 0 45px}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.19em;text-transform:uppercase}
+h1{font-size:clamp(46px,7vw,90px);letter-spacing:-.055em;line-height:1;margin:14px 0 18px;font-weight:900}
+.intro p,.cta p{color:var(--muted);line-height:1.75;max-width:650px}
+.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;padding-bottom:80px}
+.photo{padding:0;border:0;display:block;width:100%;aspect-ratio:4/5;overflow:hidden;background:#16191b;cursor:zoom-in}
+.photo img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .4s ease}
+.photo:hover img{transform:scale(1.04)}
+.photo:focus-visible,.btn:focus-visible,.close:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+.cta{border-top:1px solid var(--line);padding:70px 0 90px;text-align:center}
+.cta p{margin:0 auto 24px}
+.cta h2{font-size:clamp(34px,5vw,60px);margin:12px 0 18px;letter-spacing:-.055em}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:47px;padding:0 24px;border:1px solid var(--gold);background:var(--gold);color:#111;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.12em}
+.btn:hover{background:#e0bb7f}
+footer{padding:27px max(5vw,20px);border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:15px;color:#8e8e8c;font-size:12px}
+footer a{color:var(--gold)}
+.lightbox{position:fixed;inset:0;z-index:100;display:none;align-items:center;justify-content:center;padding:60px 20px 25px;background:rgba(0,0,0,.96)}
+.lightbox.open{display:flex}
+.lightbox img{display:block;max-width:100%;max-height:calc(100dvh - 95px);object-fit:contain}
+.close{position:absolute;right:18px;top:12px;border:0;background:transparent;color:white;font-size:42px;cursor:pointer}
+@media(max-width:800px){header{padding:20px}.logo{font-size:14px}nav{gap:12px}nav a{font-size:10px}.gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.intro{padding-top:65px}}
+@media(max-width:550px){header{flex-wrap:wrap}nav{width:100%;justify-content:space-between}.gallery{grid-template-columns:1fr}footer{flex-direction:column}}
+@media(prefers-reduced-motion:reduce){.photo img{transition:none}}
+</style>
+</head>
+<body>
+<header><a class="logo" href="index.html">PRIME <span class="accent">VISUALS</span></a><nav aria-label="Main navigation"><a href="index.html">Home</a><a href="portfolio.html" aria-current="page">Portfolio</a><a href="index.html#packages">Packages</a><a href="index.html#about">About</a><a href="index.html#contact">Contact</a></nav></header>
+<main>
+<section class="intro container"><div class="eyebrow">Selected automotive work</div><h1>THE <span class="accent">PORTFOLIO.</span></h1><p>From timeless classics to modern performance cars. A collection of automotive photography and moments behind the lens.</p></section>
+<section class="container gallery" aria-label="Automotive photography gallery">
+      <button class="photo" type="button" aria-label="Enlarge Classic Porsche 911"><img src="porsche.jpg" alt="Classic Porsche 911" loading="lazy"></button>
+      <button class="photo" type="button" aria-label="Enlarge Bentley Continental GT"><img src="bentley.jpg" alt="Bentley Continental GT" loading="lazy"></button>
+      <button class="photo" type="button" aria-label="Enlarge Behind the lens: Ferrari photoshoot"><img src="ferrari-bts.jpg" alt="Behind the lens: Ferrari photoshoot" loading="lazy"></button>
+      <button class="photo" type="button" aria-label="Enlarge Prime Visuals automotive photograph"><img src="DSC03138.jpg" alt="Prime Visuals automotive photograph" loading="lazy"></button>
+      <button class="photo" type="button" aria-label="Enlarge Prime Visuals automotive photograph"><img src="DSC04168.jpg" alt="Prime Visuals automotive photograph" loading="lazy"></button>
+      <button class="photo" type="button" aria-label="Enlarge Prime Visuals automotive photograph"><img src="DSC04264.jpg" alt="Prime Visuals automotive photograph" loading="lazy"></button>
+      <button class="photo" type="button" aria-label="Enlarge Prime Visuals automotive photograph"><img src="DSC04572.jpg" alt="Prime Visuals automotive photograph" loading="lazy"></button>
+      <button class="photo" type="button" aria-label="Enlarge Prime Visuals automotive photograph"><img src="DSC04630.jpg" alt="Prime Visuals automotive photograph" loading="lazy"></button>
+      <button class="photo" type="button" aria-label="Enlarge Prime Visuals automotive photograph"><img src="DSC04645.jpg" alt="Prime Visuals automotive photograph" loading="lazy"></button>
+      <button class="photo" type="button" aria-label="Enlarge Prime Visuals automotive photograph"><img src="DSC04883.jpg" alt="Prime Visuals automotive photograph" loading="lazy"></button>
+</section>
+<section class="cta"><div class="container"><div class="eyebrow">Work with Prime Visuals</div><h2>YOUR CAR. <span class="accent">NEXT FRAME.</span></h2><p>Looking for automotive photography in Christchurch? Let's plan your shoot.</p><a class="btn" href="index.html#contact">Book a shoot</a></div></section>
+</main>
+<footer><span>© <span id="year"></span> PRIME VISUALS · CHRISTCHURCH, NEW ZEALAND</span><span><a href="https://www.instagram.com/_prime.visuals/" target="_blank" rel="noopener noreferrer">Instagram</a> · Automotive photography & cinematic media</span></footer>
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" aria-hidden="true"><button class="close" type="button" aria-label="Close photo viewer">&times;</button><img id="lightbox-img" alt=""></div>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+const lightbox=document.getElementById('lightbox');
+const lightboxImg=document.getElementById('lightbox-img');
+const closeButton=lightbox.querySelector('.close');
+let previousFocus=null;
+document.querySelectorAll('.photo').forEach(button=>{
+  button.addEventListener('click',()=>{
+    const img=button.querySelector('img');
+    previousFocus=button;
+    lightboxImg.src=img.src;
+    lightboxImg.alt=img.alt;
+    lightbox.classList.add('open');
+    lightbox.setAttribute('aria-hidden','false');
+    document.body.style.overflow='hidden';
+    closeButton.focus();
+  });
+});
+function closePhoto(){
+  lightbox.classList.remove('open');
+  lightbox.setAttribute('aria-hidden','true');
+  lightboxImg.removeAttribute('src');
+  document.body.style.overflow='';
+  if(previousFocus)previousFocus.focus();
+}
+closeButton.addEventListener('click',closePhoto);
+lightbox.addEventListener('click',e=>{if(e.target===lightbox)closePhoto();});
+document.addEventListener('keydown',e=>{if(!lightbox.classList.contains('open'))return;if(e.key==='Escape')closePhoto();if(e.key==='Tab'){e.preventDefault();closeButton.focus();}});
+</script>
+</body>
+</html>
